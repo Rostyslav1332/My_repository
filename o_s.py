@@ -59,7 +59,7 @@ def subdirectory(cur_path):
         print('This directory is not found')
         return cur_path
 
-def level_above(current_path):
+def level_up(current_path):
     dir_up = os.path.abspath(os.path.join(current_path, os.pardir))
     contents = os.listdir(dir_up)
 
